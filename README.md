@@ -5,21 +5,25 @@ This repository contains a small chat server implementation to be used for Recit
 
 ### Getting Started
 ------
-##### Forking the Repository
+#### Forking the Repository
 In order to gain access to this repository, we would like you to **Fork** the repsoitory, and then clone your fork onto your local machine. More information about forking can be found [here](https://help.github.com/articles/fork-a-repo/).
 
-##### Importing into Eclipse
+#### Importing into Eclipse
 Once you have successfully gained access to this repository, import the project into Eclipse. 
 
-#####Running a Server
+#### Running a Server
 
 To run the server, run the `ChatServerImpl` class in the `edu.cmu.cs.cs214.rec15.server` package. Once you run the server, your console should print out:
 ```
 SERVER: Listening for incoming commands on port 15214.
 ```
+You may also run this server from the command line:
+```
+java -classpath bin/ edu.cmu.cs.cs214.rec15.server.ChatServerImpl
+```
 
-#####Running a Client
-To run the client, run the `Main` class in the `edu.cmu.cs.cs214.rec15` package. Once you run the client, a Java application will open.
+#### Running a Client
+To run the client, run the `Main` class in the `edu.cmu.cs.cs214.rec15` package. Once you run the client, a Java application will open. Alternatively, you can use `gradle run` to start the client.
 
 ### Connecting to a Server
 ------
